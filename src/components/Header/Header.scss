@@ -1,0 +1,47 @@
+.header {
+	display: flex;
+	border: 1px solid #e1e1e1;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 0 24px 0;
+	margin-bottom: 45px;
+	&-nav ul {
+		display: flex;
+		text-decoration: none;
+		margin-right: 162px;
+
+		li {
+			list-style-type: none;
+			margin-right: 48px;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 150%;
+			color: #343030;
+		}
+	}
+
+	&-search {
+		form {
+			height: 48px;
+		}
+		form input {
+			width: 293px;
+			padding: 12.5px 60px 12.5px 16px;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 150%;
+			color: #9f9f9f;
+			border: 1px solid #e1e1e1;
+		}
+		form button {
+			height: 48px;
+			width: 122px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 150%;
+			background: #403432;
+			color: #fff;
+			border: none;
+		}
+	}
+}

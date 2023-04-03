@@ -1,0 +1,45 @@
+footer {
+	display: flex;
+	background: #eceaea;
+	padding: 37px 0px;
+	justify-content: center;
+	align-items: center;
+
+	nav ul {
+		display: flex;
+
+		li {
+			list-style-type: none;
+			margin-right: 48px;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 150%;
+			color: #555555;
+		}
+	}
+
+	.footer-info {
+		display: flex;
+		align-items: center;
+		.phone {
+			display: flex;
+			align-items: center;
+			img {
+				margin-right: 8px;
+			}
+			a {
+				color: #555555;
+				text-decoration: none;
+			}
+			margin-right: 51px;
+		}
+		.adress {
+			display: flex;
+			align-items: center;
+			color: #555555;
+			img {
+				margin-right: 8px;
+			}
+		}
+	}
+}
