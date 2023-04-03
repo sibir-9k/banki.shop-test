@@ -8,21 +8,21 @@ const data = [
 		id: 1,
 		imgUrl: birthOfVenus,
 		title: '«Рождение Венеры» Сандро Боттичелли',
-		oldPrice: 2000000,
-		newPrice: 1000000,
+		oldPrice: '2 000 000',
+		newPrice: '1 000 000',
 	},
 	{
 		id: 2,
 		imgUrl: secretEvening,
-		title: 'Тайная вечеря»  Леонардо да Винчи',
-		newPrice: 3000000,
+		title: '«Тайная вечеря»  Леонардо да Винчи',
+		newPrice: '3 000 000',
 	},
 	{
 		id: 3,
 		imgUrl: creationOfAdam,
 		title: '«Сотворение Адама» Микеланджело',
-		oldPrice: 6000000,
-		newPrice: 5000000,
+		oldPrice: '6 000 000',
+		newPrice: '5 000 000',
 	},
 	{
 		id: 4,
@@ -30,6 +30,5 @@ const data = [
 		title: '«Урок анатомии»  Рембрандт',
 	},
 ];
-
 
 export default data;
