@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card } from '../Card/Card.jsx'
-// import data from '../../data/data'
 
 import './CardList.scss'
 
