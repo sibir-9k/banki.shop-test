@@ -41,8 +41,8 @@
 			height: 48px;
 			@media screen and (min-width: 375px) {
 				display: flex;
-        width: 340px;
-        justify-content: space-between
+				width: 340px;
+				justify-content: space-between;
 			}
 			input {
 				width: 293px;
@@ -52,6 +52,10 @@
 				line-height: 150%;
 				color: #9f9f9f;
 				border: 1px solid #e1e1e1;
+				&:focus {
+					outline: none !important;
+					border: 1px solid #b5b5b5;
+				}
 				@media screen and (min-width: 768px) {
 					width: 400px;
 				}
@@ -68,7 +72,7 @@
 				line-height: 150%;
 				background: #403432;
 				color: #fff;
-				border: none; 
+				border: none;
 				@media screen and (min-width: 375px) {
 					width: 30%;
 				}
