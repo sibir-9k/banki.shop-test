@@ -1,0 +1,36 @@
+.modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: none;
+	background: rgba(0, 0, 0, $alpha: 0.4);
+}
+
+.modalContent {
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 16px;
+	min-width: 250px;
+}
+
+.modal.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  z-index: 2;
+}
+
+.close-button {
+	border-radius: 50%;
+	border: none;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, $alpha: 0.1);
+	margin-bottom: 15px;
+  &:hover{
+    background: rgba(0, 0, 0, $alpha: 0.3);
+  }
+}
