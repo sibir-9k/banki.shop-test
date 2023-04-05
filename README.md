@@ -25,9 +25,11 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [![React][react.js]][react-url]
+<img src="">
+<img src="https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=#CC6699">
+<img src="https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=#646CFF">
 
-https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=#CC6699
-https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite&logoColor=#646CFF
+
 
 <!-- GETTING STARTED -->
 
