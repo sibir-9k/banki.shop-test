@@ -2,16 +2,38 @@
 
 ![video_2023-04-06_00-11-53](https://user-images.githubusercontent.com/79311642/230212793-290fb7cf-a4db-4cc0-b989-1d6649aedd5e.gif)
 
-Take a look at the --- [demo-test](https://banki-shop-test.vercel.app/)
+Взглянуть на  --- [демо-тестовое](https://banki-shop-test.vercel.app/)
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## О проекте
+Требования к приложению - реализовать следущий функционал:
 
+1. Строка поиска 
+При ввода текста в строке поиска должен происходить поиск по названиям позиций.
+Лишние карточки должны исчезать/скрываться.
 
-### Built With
+2. Кнопка "купить" 
+При нажатии на кнопку:
+ - она должна менять состояние, на 2 сек, на "обрабатывается"
+ - после "обрабатывается" переходить в состояние "в корзине"
+Отображение состояний визуально оформить, напр. "preloader icon", "purchase icon", "checked icon", и т.п.
+Дизайн/стиль продумать самостоятельно.
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+3. Сохранение состояния позиций
+После перезагрузки страницы, состояния позиций (в корзине он или нет) должно сохраняться.
+
+4. Подробное описание позиции
+При клике на название/изображение товара должна открывается модальное окно с карточкой товара.
+В карточке должны быть:
+- краткое описание позиции
+- цена
+- слайдер, содержащий 2-4 изображения
+Дизайн модального окна продумать самостоятельно.
+
+### Проект построен с помощью
+
+Эти библиотеки и фреймворки были использованы в проекте
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=#61DAFB">
 <img src="https://img.shields.io/badge/Sass-20232A?style=for-the-badge&logo=sass&logoColor=#CC6699">
@@ -23,39 +45,23 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Установка
 
-### Prerequisites
+Ниже приведены шаги для запуска проекта на вашем компьютере
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
+1. Скачайте архив с проектом
+2. Установка NPM пакетов
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Запуск проекта
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm run dev
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
+
+
 
 
 
